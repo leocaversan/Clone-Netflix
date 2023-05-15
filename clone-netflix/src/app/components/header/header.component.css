@@ -1,0 +1,54 @@
+.conteiner{
+    border: 1rem;
+}
+.conteiner__header{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    box-sizing: border-box;
+    width: calc(100% + 16px);
+    margin-left: -18px;
+    color: #ffffff;
+}
+.conteiner__logo > span{
+    color: #e50815;
+    border-bottom: 1rem;
+    border-top: 2rem;
+    margin-left: 2.3rem;
+}
+svg.conteiner__logo-svg{
+    height: 1.4rem;
+    fill: #e50815;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    
+}
+
+.conteiner__button > button{
+    margin-left: .6rem;
+    height: 2rem;
+    width: 5rem;
+}
+.signin{
+    font-size: medium;
+    background-color: #e50815;
+    border-radius: .2rem;
+    border: transparent;
+}
+.signin:active{
+    position: relative;
+    top: 1px;
+}
+.leguage{
+    font-size: medium;
+    background-color: #0f1118;
+    border-radius: .2rem;
+    border: #939393;
+}
+.leguage:active{
+    position: relative;
+    top: 1px;
+}
