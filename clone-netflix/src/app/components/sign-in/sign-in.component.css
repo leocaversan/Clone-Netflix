@@ -1,0 +1,55 @@
+.conteiner{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.conteiner__signin{
+    font-size: x-small;
+    border-bottom: 2rem;
+}
+.conteiner__input-mail{
+    padding-top: 2rem;
+    width: 100%;
+    height: 100%;
+}
+.conteiner__input-mail > input {
+    width: 100%;
+    height: 3rem;
+    border-radius: .3rem;
+    border: transparent;
+    background-color: #141414;
+}
+.conteiner__input-passworld {
+    padding-top: 1rem;
+}
+.conteiner__input-passworld > input {
+    width: 100%;
+    height: 3rem;
+    border-radius: .3rem;
+    border: transparent;
+    background-color: #141414;
+}
+.conteiner__button-signin {
+    margin-top: 3rem;
+}
+.conteiner__button-signin >button {
+    width: 100%;
+    height: 3rem;
+    background-color: red;
+    font-size: larger;
+    border: transparent;
+    border-radius: .3rem;
+}
+.conteiner__button-signin >button:active {
+    position:relative;
+    top: .1rem;
+}
+.conteiner__footer-button {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
