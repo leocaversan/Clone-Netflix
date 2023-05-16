@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./sign-in.component.css']
 })
 export class SignInComponent {
+function() {
+console.log('clicou no botao mas nao redirecionou');
+}
 
 }

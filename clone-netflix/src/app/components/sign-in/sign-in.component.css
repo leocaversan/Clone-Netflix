@@ -51,5 +51,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
 
+.learn-more{
+    padding-top: .3rem;
+}
+.login-netflix > a{
+    text-decoration: none;
+}
+.learn-more-aref{
+    color: rgb(9, 132, 189);
+    text-decoration: none;
 }

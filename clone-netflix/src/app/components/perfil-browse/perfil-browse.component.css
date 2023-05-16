@@ -1,0 +1,45 @@
+*{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.conteiner{
+    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    font-size: .8rem;
+    font-weight: unset;
+}
+.profiles {
+    margin-top: 2rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profiles > p{
+    color: #808080;
+}
+.profiles > img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: .7rem;
+}
+.manager-profiles {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.manager-profiles > button{
+    height: 3rem;
+    width: 15rem;
+    border-radius: .7rem;
+    color: #808080;
+    border: #808080 solid 1px;
+}
+.manager-profiles > button:hover{
+    color: aliceblue;
+    border: solid 1px aliceblue;
+}

@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { LoginPasswordComponent } from './pages/login-password/login-password.component';
+import { HomeSelectionVideoComponent } from './pages/home-selection-video/home-selection-video.component';
+import { BrowseComponent } from './pages/browse/browse.component';
 
 const routes: Routes = [
   {
@@ -13,6 +15,11 @@ const routes: Routes = [
     path:'login',
     component: LoginPasswordComponent
   },
+  {
+    path:'browse',
+    component: BrowseComponent
+  },
+
 ];
 
 @NgModule({

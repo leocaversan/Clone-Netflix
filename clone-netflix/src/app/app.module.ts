@@ -9,6 +9,9 @@ import { LoginComponent } from './components/login/login.component';
 import { LoginPasswordComponent } from './pages/login-password/login-password.component';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { FooterSignInComponent } from './components/footer-sign-in/footer-sign-in.component';
+import { HomeSelectionVideoComponent } from './pages/home-selection-video/home-selection-video.component';
+import { BrowseComponent } from './pages/browse/browse.component';
+import { PerfilBrowseComponent } from './components/perfil-browse/perfil-browse.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { FooterSignInComponent } from './components/footer-sign-in/footer-sign-i
     LoginComponent,
     LoginPasswordComponent,
     SignInComponent,
-    FooterSignInComponent
+    FooterSignInComponent,
+    HomeSelectionVideoComponent,
+    BrowseComponent,
+    PerfilBrowseComponent
   ],
   imports: [
     BrowserModule,
