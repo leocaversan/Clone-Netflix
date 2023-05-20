@@ -43,3 +43,10 @@
     color: aliceblue;
     border: solid 1px aliceblue;
 }
+.conteiner__profiles{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
